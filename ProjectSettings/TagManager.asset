@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bumper_Right
+  - Bumper_Left
+  - Joystick_Right
+  - Joystick_Left
+  - Home
+  - Start
+  - Select
+  - A
+  - B
+  - X
+  - Y
+  - Up
+  - Down
+  - Left
+  - Right
+  - Floor
+  - TrackSection
+  - Obstacle
+  - Breakable
+  - Powerup
+  - Lane1
+  - Lane2
+  - value
+  - TutorialTrigger
+  - Foreground
+  - Midground
+  - Background
+  - Door
+  - Drop
+  - Wall
+  - DoorOpen
+  - FloorP1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Controller
+    uniqueID: 1446513805
+    locked: 0
+  - name: Floor
+    uniqueID: 2930146789
+    locked: 0

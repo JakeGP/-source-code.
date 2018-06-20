@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1330572111901348}
+  m_IsPrefabParent: 1
+--- !u!1 &1330572111901348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4559208338071312}
+  - component: {fileID: 114344925400042582}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559208338071312
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330572111901348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114344925400042582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330572111901348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2cb62ceaa573d45a92ef485c3494c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1_speed: 0
+  player2_speed: 0
+  player_jumpHeight: 0
+  player_respawn: 0
+  player1_physics: 0
+  player2_physics: 0
+  player1_hitPowerup: 0
+  player2_hitPowerup: 0
+  player1_hasPowerup: 0
+  player2_hasPowerup: 0
+  player1_shielded: 0
+  player2_shielded: 0
+  player_runOverride: 0
+  player_jumpOverride: 0
+  player1_ready: 0
+  player2_ready: 0
+  game_roundTime: 60
+  transition: 1
+  tutorial_step: 1
+  game_roundCount: 0
+  game_start: 0
+  game_end: 0
+  game_inEnd: 0
+  paused: 0
+  P1enable_input: 1
+  P2enable_input: 1
+  GameMode: 0
+  pauseCount: 0
+  game_theme: Jungle
+  player1_powerup: 0
+  player2_powerup: 0
+  powerups:
+  - ControlJam
+  - ControlMuddle
+  - MultiplyIncrease
+  - Shield
+  pause: {fileID: 1939932657500280, guid: af9f346fd10714a429a723e944a3be74, type: 2}
+  powerupSprites:
+  - {fileID: 21300000, guid: 0a69e2fc6f9112149bb70959fc09f576, type: 3}
+  - {fileID: 21300000, guid: 9e1dc97102ab20c4abc5fadfe0137bdf, type: 3}
+  - {fileID: 21300000, guid: 0ac55e54936043e4181d20d97a895cab, type: 3}
+  - {fileID: 21300000, guid: 74896c88f312dc647bfcd92e8325b657, type: 3}
+  - {fileID: 21300000, guid: f35d9d9d0fcc0bc4886fa5a504d3a213, type: 3}

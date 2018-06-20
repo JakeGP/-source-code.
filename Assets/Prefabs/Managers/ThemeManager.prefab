@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1317948681158702}
+  m_IsPrefabParent: 1
+--- !u!1 &1317948681158702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4974381986029768}
+  - component: {fileID: 114722967299780926}
+  m_Layer: 0
+  m_Name: ThemeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4974381986029768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317948681158702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1890.3086, y: 3.378054, z: 31.648438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114722967299780926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317948681158702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8eeb475462fb044f89fae229f4337ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentFloor: []
+  CurrentJump1: []
+  CurrentJump2: {fileID: 0}
+  CurrentSmash: {fileID: 0}
+  CurrentDuck: {fileID: 0}
+  CurrentDuck2: {fileID: 0}
+  CurrentDeath: {fileID: 0}
+  JungleBackground: {fileID: 21300000, guid: 3a1b06ad6013d2f489600edb902a3381, type: 3}
+  JungleMidground: {fileID: 21300000, guid: 7f943d6c4f68e27419441ddd6dcc53ce, type: 3}
+  JungleForeground: {fileID: 21300000, guid: bb830ff0fc7cf4c48b9a112ec41645ea, type: 3}
+  JungleFloor:
+  - {fileID: 21300000, guid: 2cbb6e32616fa254f876bbadd9cd35b6, type: 3}
+  - {fileID: 21300000, guid: 7f3a83aac00c5a142b5f433982d8a01a, type: 3}
+  - {fileID: 21300000, guid: decf9744d91fc2b4787d0fd4d28beb6f, type: 3}
+  - {fileID: 21300000, guid: 72ee1e88ad628af41a1f55396caf70ef, type: 3}
+  JungleJump1:
+  - {fileID: 21300000, guid: ccd7bc8194799f040ae63435ade8e20b, type: 3}
+  - {fileID: 21300000, guid: 2b249418f3708924eb0edb43194e6c27, type: 3}
+  JungleJump2: {fileID: 21300000, guid: d8bc06acb1eef4145b1aaab7dc44d995, type: 3}
+  JungleSmash: {fileID: 21300000, guid: 52b4b75023e832c4d8c292eeb124b72b, type: 3}
+  JungleDuck: {fileID: 21300000, guid: d8bc06acb1eef4145b1aaab7dc44d995, type: 3}
+  JungleDeath: {fileID: 21300000, guid: 726d4914b78b35944bb9393d01dca8e5, type: 3}
+  DesertBackground: {fileID: 21300000, guid: ef2375e858295af48ae711ab7279b5c2, type: 3}
+  DesertMidground: {fileID: 21300000, guid: e57d177f2766e4d4f8198a4ce3858207, type: 3}
+  DesertForeground: {fileID: 21300000, guid: 768ba792a8c4c5045964eba5edc690b6, type: 3}
+  DesertFloor:
+  - {fileID: 21300000, guid: 810ab1c2026deb8448e52847f04f73f5, type: 3}
+  - {fileID: 21300000, guid: 6917439c184fa8b44aec226ba746ed05, type: 3}
+  - {fileID: 21300000, guid: b07cc0f3871839543aee75fb1cf1afa9, type: 3}
+  - {fileID: 21300000, guid: a9d2618beb82be74f819c4a9a88bd112, type: 3}
+  DesertJump1:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 89a695d269511fc48a7f0091d2a14bab, type: 3}
+  - {fileID: 21300000, guid: 26ef11d37b9b90543880c09338bfa61e, type: 3}
+  DesertJump2: {fileID: 21300000, guid: 9dccabec9251ccc4084875277076aff6, type: 3}
+  DesertSmash: {fileID: 21300000, guid: d3fd687c74b28f7409314b155bc69e96, type: 3}
+  DesertDuck: {fileID: 21300000, guid: 7353494a486a885409f41a17c33bae74, type: 3}
+  DesertDeath: {fileID: 21300000, guid: 726d4914b78b35944bb9393d01dca8e5, type: 3}
